@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+body{
+    background-color:rgb(107,137,237);
+    font-family: 'BYEKAN'
+}
+.container{
+    width:600px;
+    height:360px;
+    margin:100px auto;
+    box-shadow: 0 0 40px rgb(40,40,40);
+    border-radius: 10px 25px 10px 25px;
+    position:relative;
+    
+}
+.card{
+    width:225px;
+    height:360px;
+    position: absolute;
+    right:30px;
+    top:-30px;
+    box-shadow: 0 0 40px rgb(40,40,40);
+    border-radius: 10px 25px 10px 25px;
+    overflow: hidden;
+}
+.pic{
+    width:100%;
+}
+.bio{
+    width:300px;
+    position:absolute;
+    left:30px;
+    top:30PX;
+    height:300px;
+    text-align: justify;
+    
+}
+.card p{
+    padding-right:15px;
+    margin:4px;
+}
